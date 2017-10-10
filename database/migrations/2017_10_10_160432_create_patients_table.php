@@ -25,7 +25,6 @@ class CreatePatientsTable extends Migration
             $table->string('gruposan');
             $table->string('rh');
             $table->string('alergias');
-            $table->string('email');
             $table->timestamps();
         });
     }
